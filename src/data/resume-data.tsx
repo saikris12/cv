@@ -20,14 +20,14 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Sai Krishna Vangala",
+  initials: "SV",
+  location: "Toronto, Canada, ET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Senior Software Engineer, Builder and Mentor with a passion for Innovation and Problem Solving",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a seasoned Senior Software Engineer and Tech Lead, I boast a proven track record of spearheading successful product launches in collaboration with diverse, cross-functional teams. With over 12 years of robust experience in software development, my expertise lies in leading and nurturing cohesive teams, fostering an environment conducive to optimal productivity and innovation. Proficient in TypeScript, Node.js, and AWS technologies, I am dedicated to delivering high-quality solutions while championing a culture of excellence.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -36,27 +36,27 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/saikris12",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/saikrishnavangala",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
+        name: "Medium",
+        url: "https://medium.com/@saikris12",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Andhra University",
+      degree: "Bachelor's Degree in Science",
+      start: "2005",
+      end: "2008",
     },
   ],
   work: [
