@@ -53,10 +53,9 @@ export const RESUME_DATA = {
       company: "Tim Hortons - RBI",
       link: "https://www.rbi.com",
       badges: ["Lead", "Remote"],
-      title: "Tech Lead",
+      title: "Tech Lead - Tims Financial",
       logo: RBILogo,
       start: "2022",
-      end: "2025",
       description:
         "Successfully led a team in the development and nationwide launch of the Tims Mastercard, driving product development from scratch. Assembled and nurtured a high-performing team, fostering collaboration and innovation. Guided the team through the entire product lifecycle, from concept to market launch.",
     },
@@ -106,18 +105,38 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Node.js",
     "Go",
+    "Node.js",
     "GraphQL",
     "Java",
     "AWS",
     "System Architecture",
-    "Remote Team Leadership"
+    "Team Leadership"
   ],
   projects: [
     {
+      title: "Transaction store",
+      techStack: ["DynamoDB", "Event Bridge", "Kinesis", "Lambda", "NodeJS"],
+      description: "A scalable transaction datastore that delivers real-time transaction feeds to fintech mobile app users.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "github.com",
+        href: "https://saivangala.me/",
+      },
+    },
+    {
+      title: "AI Spending Insights",
+      techStack: ["DynamoDB", "Amazon Bedrock", "Lambda", "Python", "Prompt Engineering"],
+      description: "An AI platform that analyzes credit card spending to provide personalized insights and recommendations.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "github.com",
+        href: "https://saivangala.me/",
+      },
+    },
+    {
       title: "saivangala.me",
-      techStack: ["Side Project", "Next.js", "Vercel"],
+      techStack: ["Next.js", "Vercel"],
       description:
         "My personal website and blog. Built with Next.js and Vercel",
       logo: JarockiMeLogo,
