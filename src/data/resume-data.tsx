@@ -56,6 +56,7 @@ export const RESUME_DATA = {
       title: "Tech Lead - Tims Financial",
       logo: RBILogo,
       start: "2022",
+      end: "Present",
       description:
         "Successfully led a team in the development and nationwide launch of the Tims Mastercard, driving product development from scratch. Assembled and nurtured a high-performing team, fostering collaboration and innovation. Guided the team through the entire product lifecycle, from concept to market launch.",
     },
