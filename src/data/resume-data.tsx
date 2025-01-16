@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   summary:
     "As a seasoned Senior Engineer and Tech Lead, I have a proven track record of leading successful product launches with diverse, cross-functional teams. My expertise includes team leadership, fostering innovation, and delivering high-quality solutions using various programming languages and cloud technologies. I am dedicated to nurturing cohesive teams and championing a culture of excellence.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19532601?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://saivangala.me",
   contact: {
     email: "saikris12@gmail.com",
     tel: "+1(437)-995-0408",
