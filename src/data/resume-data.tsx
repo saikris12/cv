@@ -116,14 +116,14 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "saivangala.me",
+      techStack: ["Side Project", "Next.js", "Vercel"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "My personal website and blog. Built with Next.js and Vercel",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://saivangala.me/",
       },
     },
   ],
