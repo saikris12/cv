@@ -112,6 +112,8 @@ export const RESUME_DATA = {
     "Java",
     "AWS",
     "System Architecture",
+    "Amazon Bedrock",
+    "AI Prompt Engineering",
     "Team Leadership"
   ],
   projects: [
