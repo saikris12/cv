@@ -50,9 +50,9 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Restaurant Brands International (RBI)",
+      company: "Tim Hortons - RBI",
       link: "https://www.rbi.com",
-      badges: ["Remote"],
+      badges: ["Lead", "Remote"],
       title: "Tech Lead",
       logo: RBILogo,
       start: "2022",
@@ -63,7 +63,7 @@ export const RESUME_DATA = {
     {
       company: "Koho Financial Inc",
       link: "https://www.koho.ca/",
-      badges: ["Remote"],
+      badges: ["Lead", "Remote"],
       title: "Senior Software Engineer - Payments",
       logo: KohoLogo,
       start: "2021",
