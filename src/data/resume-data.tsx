@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       company: "Tim Hortons - RBI",
       link: "https://www.rbi.com",
       badges: ["Lead", "Remote"],
-      title: "Tech Lead - Tims Financial",
+      title: "Senior Software Engineering Manager",
       logo: RBILogo,
       start: "2022",
       end: "Present",
