@@ -1,7 +1,6 @@
 import {
   CGILogo,
   InteracLogo,
-  JarockiMeLogo,
   KohoLogo,
   RBILogo,
   TCSLogo,
@@ -14,9 +13,9 @@ export const RESUME_DATA = {
   location: "Toronto, Canada, ET",
   locationLink: "https://www.google.com/maps/place/Toronto",
   about:
-    "Senior Engineer and Tech Lead with a passion for innovation, mentoring teams, and solving complex problems.",
+    "Engineering Manager with a passion for innovation, mentoring teams, and solving complex problems.",
   summary:
-    "As a seasoned Senior Engineer and Tech Lead, I have a proven track record of leading successful product launches with diverse, cross-functional teams. My expertise includes team leadership, fostering innovation, and delivering high-quality solutions using various programming languages and cloud technologies. I am dedicated to nurturing cohesive teams and championing a culture of excellence.",
+    "As a seasoned senior engineer and engineering manager, I have a proven track record of leading successful product launches with diverse, cross-functional teams. My expertise includes team leadership, fostering innovation, and delivering high-quality solutions using various programming languages and cloud technologies. I am dedicated to nurturing cohesive teams and championing a culture of excellence.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19532601?v=4",
   personalWebsiteUrl: "https://saivangala.me",
   contact: {
@@ -106,15 +105,14 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Go",
-    "Node.js",
-    "GraphQL",
-    "Java",
     "AWS",
-    "System Architecture",
-    "Amazon Bedrock",
-    "AI Prompt Engineering",
-    "Team Leadership"
+    "Cloud Architecture & Engineering",
+    "Microservices",
+    "Event-Driven Systems",
+    "Serverless Computing",
+    "Technical Leadership",
+    "Distributed System Architecture",
+    "System Scalability & Reliability"
   ],
   projects: [
     {
@@ -140,8 +138,8 @@ export const RESUME_DATA = {
     },
     {
       title: "Realtime Fraud Detection",
-      techStack: ["Docker", "Spring Boot", "Kafka", "Spanner (GCP)"],
-      description: "Utilized real-time event streaming capabilities to detect fraudulent transactions instantly and alert customers promptly.",
+      techStack: ["Docker", "Spring Boot", "Kafka (Confluent Cloud)", "Kafka Connect", "Spanner (GCP)"],
+      description: "Utilized real-time event streaming capabilities of kafka (Confluent enterprise cloud) and kafka connect to detect fraudulent transactions instantly and alert customers promptly.",
     },
     {
       title: "saivangala.me",
