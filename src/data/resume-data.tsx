@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   about:
     "Engineering Manager with a passion for innovation, mentoring teams, and solving complex problems.",
   summary:
-    "As a seasoned senior engineer and engineering manager, I have a proven track record of leading successful product launches with diverse, cross-functional teams. My expertise includes team leadership, fostering innovation, and delivering high-quality solutions using various programming languages and cloud technologies. I am dedicated to nurturing cohesive teams and championing a culture of excellence.",
+    "As a seasoned senior engineer and engineering manager, I have a proven track record of leading successful product launches with diverse, cross-functional teams. My expertise includes team leadership, fostering innovation, and delivering high-quality solutions using various programming languages and cloud technologies. I also apply AI-assisted engineering to accelerate delivery without sacrificing reliability. I am dedicated to nurturing cohesive teams and championing a culture of excellence.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19532601?v=4",
   personalWebsiteUrl: "https://saivangala.me",
   contact: {
@@ -51,7 +51,7 @@ export const RESUME_DATA = {
     {
       company: "Tim Hortons - RBI",
       link: "https://www.rbi.com",
-      badges: ["Lead", "Remote"],
+      badges: ["Lead"],
       title: "Senior Software Engineering Manager",
       logo: RBILogo,
       start: "2025",
@@ -125,7 +125,7 @@ export const RESUME_DATA = {
     "LLM Platforms & Agentic Workflows",
     "Technical Leadership",
     "Distributed System Architecture",
-    "System Scalability & Reliability"
+    "System Scalability & Reliability",
   ],
   projects: [
     {
@@ -137,28 +137,44 @@ export const RESUME_DATA = {
     {
       title: "Transaction store",
       techStack: ["DynamoDB", "Event Bridge", "Kinesis", "Lambda", "NodeJS"],
-      description: "A scalable transaction datastore that delivers real-time transaction feeds to fintech mobile app users.",
-      
+      description:
+        "A scalable transaction datastore that delivers real-time transaction feeds to fintech mobile app users.",
     },
     {
       title: "AI Spending Insights",
-      techStack: ["DynamoDB", "Amazon Bedrock", "Lambda", "Python", "Prompt Engineering"],
-      description: "An AI platform that analyzes credit card spending to provide personalized insights and recommendations.",
+      techStack: [
+        "DynamoDB",
+        "Amazon Bedrock",
+        "Lambda",
+        "Python",
+        "Prompt Engineering",
+      ],
+      description:
+        "An AI platform that analyzes credit card spending to provide personalized insights and recommendations.",
     },
     {
       title: "Payment Rails Framework",
       techStack: ["Go", "Docker", "Postgres"],
-      description: "A comprehensive framework for building diverse money movement solutions with integrated risk management rules.",
+      description:
+        "A comprehensive framework for building diverse money movement solutions with integrated risk management rules.",
     },
     {
       title: "Platform Modernization - Microservices",
       techStack: ["Docker", "Spring Boot", "Envoy", "Oracle Cloud"],
-      description: "Transformed a legacy tech stack by containerizing a monolithic application into microservices deployed via Docker.",
+      description:
+        "Transformed a legacy tech stack by containerizing a monolithic application into microservices deployed via Docker.",
     },
     {
       title: "Realtime Fraud Detection",
-      techStack: ["Docker", "Spring Boot", "Kafka (Confluent Cloud)", "Kafka Connect", "Spanner (GCP)"],
-      description: "Utilized real-time event streaming capabilities of kafka (Confluent enterprise cloud) and kafka connect to detect fraudulent transactions instantly and alert customers promptly.",
+      techStack: [
+        "Docker",
+        "Spring Boot",
+        "Kafka (Confluent Cloud)",
+        "Kafka Connect",
+        "Spanner (GCP)",
+      ],
+      description:
+        "Utilized real-time event streaming capabilities of kafka (Confluent enterprise cloud) and kafka connect to detect fraudulent transactions instantly and alert customers promptly.",
     },
     {
       title: "saivangala.me",
