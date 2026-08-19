@@ -1,4 +1,4 @@
-FROM node:22.2.0-slim as BUILD_STAGE
+FROM node:24-slim AS BUILD_STAGE
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ COPY . .
 
 RUN yarn build
 
-FROM node:alpine
+FROM node:24-slim
 
 WORKDIR /app
 
