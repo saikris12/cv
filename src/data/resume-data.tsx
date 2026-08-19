@@ -54,8 +54,19 @@ export const RESUME_DATA = {
       badges: ["Lead", "Remote"],
       title: "Senior Software Engineering Manager",
       logo: RBILogo,
+      start: "2025",
+      end: "Current",
+      description:
+        "Lead the Payments engineering team owning business-critical guest experiences—Scan & Pay, mobile ordering checkout, and gift card payments—processing millions of transactions monthly. Raised payment reliability and reduced checkout friction across high-volume flows, improving authorization success and cutting payment-related incidents. Championed AI engineering platforms (agentic coding, MCP tooling, and automated review) to accelerate feature delivery ~30% while keeping production quality high.",
+    },
+    {
+      company: "Tim Hortons - RBI",
+      link: "https://www.rbi.com",
+      badges: ["Lead", "Remote"],
+      title: "Engineering Manager/Tech Lead",
+      logo: RBILogo,
       start: "2022",
-      end: "Present",
+      end: "2025",
       description:
         "Successfully led a team in the development and nationwide launch of the Tims Mastercard, driving product development from scratch. Assembled and nurtured a high-performing team, promoting collaboration and innovation. Guided the team through the entire product lifecycle, from concept to market launch.",
     },
@@ -110,11 +121,19 @@ export const RESUME_DATA = {
     "Microservices",
     "Event-Driven Systems",
     "Serverless Computing",
+    "AI-Assisted Engineering",
+    "LLM Platforms & Agentic Workflows",
     "Technical Leadership",
     "Distributed System Architecture",
     "System Scalability & Reliability"
   ],
   projects: [
+    {
+      title: "Agentic Engineering Platform",
+      techStack: ["Cursor", "LLMs", "MCP", "TypeScript", "CI/CD", "Python"],
+      description:
+        "Designed and rolled out AI-assisted engineering workflows—agentic coding agents, MCP integrations, and automated review—to speed delivery of payments features without sacrificing reliability.",
+    },
     {
       title: "Transaction store",
       techStack: ["DynamoDB", "Event Bridge", "Kinesis", "Lambda", "NodeJS"],
